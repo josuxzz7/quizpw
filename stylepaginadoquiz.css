@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(60, 60, 60);
+    color: white;
+}   
+@font-face {
+    font-family: mine;
+    src: url(Minecraft.ttf);
+}
+h1, h2, h3, h4{
+    font-family: mine;
+    font-weight: normal;
+}
+p{
+    font-family: mine;
+}
+button{
+    width: 420px;
+    height: 55px;
+    font-family: mine;
+    color: white;
+    background-color:rgb(19, 17, 17);
+    cursor: pointer;
+}
+input{
+    cursor: pointer;
+}
+section{
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    background-color: rgb(24, 22, 22);
+}
+h1, h3{
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color:rgb(24, 22, 22);
+}
